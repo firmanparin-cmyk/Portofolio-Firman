@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Firman Hidayat — Teknisi IT & Engineer Kelistrikan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a href="#" class="nav-id"><span class="dot"></span> FH // Network Programing &amp; Electrical</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#proses">Cara Kerja</a></li>
+      <li><a href="#proyek">Proyek</a></li>
+      <!-- <li><a href="#sertifikasi">Sertifikasi</a></li> -->
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="plate">
+      <svg class="circuit" viewBox="0 0 1000 300" preserveAspectRatio="none" aria-hidden="true">
+        <path class="c-blue" d="M0,220 L180,220 L220,180 L420,180 L460,220 L1000,220"/>
+        <path class="c-amber" d="M0,60 L140,60 L180,100 L520,100 L560,60 L1000,60"/>
+      </svg>
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow-row"><span class="rule"></span> Data plate</div>
+          <h1 class="name">Firman<br>Hidayat</h1>
+          <p class="role">Network Programing<span class="sep">&amp;</span> Electrical</p>
+          <p class="tagline">Menjaga arus tetap mengalir dan jaringan tetap terhubung dari panel distribusi hingga rak server.</p>
+        </div>
+        <div class="hero-side">
+        <div class="id-card">
+          <div class="id-photo"><img src="data:image/jpeg;base64,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" alt="Firman Hidayat"></div>
+          <div class="nameplate-box">
+            <div class="row"><span>Status</span><span class="ok">Tersedia untuk proyek</span></div>
+            <div class="row"><span>Domain</span><span>Network Programing &amp; Electrical</span></div>
+            <div class="row"><span>Lokasi</span><span>Blitar Jawa Timur</span></div>
+            <div class="row"><span>Pengalaman</span><span>2019-Sekarang</span></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang" class="wrap">
+    <div class="sec-head"><span class="sec-num">01</span><h2 class="sec-title">Tentang</h2></div>
+    <div class="about-grid">
+      <div>
+        <p>Technician information technology &amp; Engineer Electrical yang memiliki pengalaman dalam instalasi, perawatan, dan troubleshooting sistem komputer serta kelistrikan. Menguasai dasar pemrograman, jaringan, serta mikrokontroler untuk kebutuhan sistem otomatisasi. Terbiasa bekerja secara sistematis, teliti, dan mampu menyelesaikan masalah teknis dengan cepat baik secara individu maupun tim.</p>
+        
+      </div>
+      <ul class="fact-list">
+        <li><span class="k">Pendidikan</span><span class="v">Institut Teknologi Adhi Tama Surabaya 2023-2026 (Teknik Elektro)</span></li>
+        <li><span class="k">Pengalaman Kerja</span><span class="v">Staff IT CV Citra Rajawali 2019-2020, Staff IT PT Pakarti Riken Indonesia 2022-2027 </span></li>
+        <li><span class="k">Tersedia untuk</span><span class="v">Proyek instalasi, maintenance rutin, dan konsultasi teknis</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="keahlian" class="wrap">
+    <div class="sec-head"><span class="sec-num">02</span><h2 class="sec-title">Keahlian</h2></div>
+    <div class="skills-grid">
+      <div class="skill-col elec">
+        <h3><span class="swatch"></span> Electrical</h3>
+        <div class="meter"><div class="meter-label"><span>Instalasi Panel Listrik</span><span>Mahir</span></div><div class="meter-track"><div class="fill" style="width:90%"></div></div></div>
+        <div class="meter"><div class="meter-label"><span>Troubleshooting Kelistrikan</span><span>Mahir</span></div><div class="meter-track"><div class="fill" style="width:88%"></div></div></div>
+        <div class="meter"><div class="meter-label"><span>Sistem Kontrol &amp; IoT</span><span>Menengah</span></div><div class="meter-track"><div class="fill" style="width:75%"></div></div></div>
+        <div class="meter"><div class="meter-label"><span>K3 Kelistrikan</span><span>Mahir</span></div><div class="meter-track"><div class="fill" style="width:92%"></div></div></div>
+      </div>
+      <div class="skill-col itnet">
+        <h3><span class="swatch"></span> Network Programing</h3>
+        <div class="meter"><div class="meter-label"><span>Instalasi &amp; Maintenance Jaringan</span><span>Mahir</span></div><div class="meter-track"><div class="fill" style="width:88%"></div></div></div>
+        <div class="meter"><div class="meter-label"><span>Administrasi Server</span><span>Menengah</span></div><div class="meter-track"><div class="fill" style="width:70%"></div></div></div>
+        <div class="meter"><div class="meter-label"><span>Troubleshooting Hardware/Software</span><span>Mahir</span></div><div class="meter-track"><div class="fill" style="width:90%"></div></div></div>
+        <div class="meter"><div class="meter-label"><span>Web Programing</span><span>Menengah</span></div><div class="meter-track"><div class="fill" style="width:75%"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proses" class="wrap">
+    <div class="sec-head"><span class="sec-num">03</span><h2 class="sec-title">Cara Kerja</h2></div>
+    <div class="process">
+      <div class="step"><span class="num">01</span><h4>Diagnosa</h4><p>Identifikasi masalah atau kebutuhan di lapangan sebelum menyentuh alat.</p></div>
+      <div class="step"><span class="num">02</span><h4>Perencanaan</h4><p>Rancang solusi: skema kelistrikan atau topologi jaringan yang sesuai.</p></div>
+      <div class="step"><span class="num">03</span><h4>Instalasi</h4><p>Eksekusi pemasangan dengan standar keselamatan dan kerapian kabel.</p></div>
+      <div class="step"><span class="num">04</span><h4>Uji &amp; Serah Terima</h4><p>Pengujian menyeluruh, dokumentasi, dan serah terima ke pemilik.</p></div>
+    </div>
+  </section>
+
+  <section id="proyek" class="wrap">
+    <div class="sec-head"><span class="sec-num">04</span><h2 class="sec-title">Proyek</h2></div>
+    <div class="proj-grid">
+      <div class="proj-card elec">
+        <span class="proj-tag">Electrical</span>
+        <h4>Instalasi Panel Listrik</h4>
+        <p>Melakukan instalasi panel listrik lengkap untuk distribusi daya.Pemasangan MCB, kabel, dan jalur distribusi, perhitungan beban listrik, pengkabelan sesuai standar keselamatan, pengujian tegangan dan arus</p>
+      </div>
+      <div class="proj-card itnet">
+        <span class="proj-tag">Network Programing</span>
+        <h4>Instalasi dan Troubleshooting Komputer</h4>
+        <p>Instalasi sistem operasi dan software serta perbaikan hardware komputer.</p>
+      </div>
+      <div class="proj-card elec">
+        <span class="proj-tag">Electrical</span>
+        <h4>Pengembangan Sistem IoT</h4>
+        <p>Merancang sistem berbasis mikrokontroler untuk pengambilan dan pengiriman data. Menggunakan komunikasi MQTT untuk transfer data. Integrasi dengan server berbasis Node.js.</p>
+      </div>
+      <div class="proj-card itnet">
+        <span class="proj-tag">Network Programing</span>
+        <h4>Sistem Manajemen Jaringan LAN</h4>
+        <p>Mendesain dan mengkonfigurasi jaringan LAN untuk gedung atau kantor.</p>
+      </div>
+      <div class="proj-card elec">
+        <span class="proj-tag">Electrical</span>
+        <h4>Instalasi Motor Listrik 1 Fasa &amp; 3 Fasa</h4>
+        <p>Melakukan instalasi dan pengoperasian motor listrik.Wiring motor 1 fasa &amp; 3 fasa, instalasi starter (DOL &amp; star-delta), pengujian arah putaran, proteksi motor.</p>
+      </div>
+      <div class="proj-card itnet">
+        <span class="proj-tag">Network Programing</span>
+        <h4>Web &amp; Desktop Programing </h4>
+        <p>Membangun backend API untuk mengelola data user atau sistem, membuat dashboard web yang menampilkan data secara real-time, membuat sistem autentikasi untuk aplikasi, membuat aplikasi CRUD untuk mengelola data.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="sertifikasi" class="wrap">
+    <div class="sec-head"><span class="sec-num">05</span><h2 class="sec-title">Sertifikasi</h2></div>
+    <div class="cert-list">
+      <div class="cert"><span class="cert-year">Isi tahun</span><span class="cert-name">Nama Sertifikasi Kelistrikan</span><span class="cert-org">Isi lembaga penerbit</span></div>
+      <div class="cert"><span class="cert-year">Isi tahun</span><span class="cert-name">Nama Sertifikasi IT/Jaringan</span><span class="cert-org">Isi lembaga penerbit</span></div>
+      <div class="cert"><span class="cert-year">Isi tahun</span><span class="cert-name">Nama Sertifikasi K3</span><span class="cert-org">Isi lembaga penerbit</span></div>
+    </div>
+  </section> -->
+
+  <section id="kontak" class="wrap">
+    <div class="sec-head"><span class="sec-num">05</span><h2 class="sec-title">Kontak</h2></div>
+    <div class="contact-plate">
+      <div>
+        <h2>Ada proyek kelistrikan atau IT?</h2>
+        <p>Hubungi lewat salah satu kanal di samping — akan dibalas maksimal 1x24 jam.</p>
+      </div>
+      <ul class="contact-rows">
+        <li><span>Email</span><a href="mailto:firman.hidayat@email.com">fhidayat314@gmail.com</a></li>
+        <li><span>WhatsApp</span><a href="https://wa.me/6285804020998" target="_blank" rel="noopener">085804020998</a></li>
+        <li><span>Lokasi</span><span>Blitar Jawa Timur</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 Firman Hidayat — Network Programing &amp; Electrical</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
